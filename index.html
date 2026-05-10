@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Geometry Dash - Robert Scratch</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+            background-color: #0a0a12;
+        }
+        body {
+            margin: 0;
+            padding: 40px;
+            background-color: #0a0a12;
+            color: #00ffcc;
+            font-family: 'Segoe UI', 'Courier New', monospace;
+            border: 8px solid #00ffcc;
+            box-sizing: border-box;
+            min-height: 297mm;
+            text-shadow: 2px 2px #000;
+        }
+        .container {
+            max-width: 85%;
+            margin: 0 auto;
+        }
+        .header-box {
+            border: 3px solid #ff00ff;
+            padding: 20px;
+            background: rgba(255, 0, 255, 0.1);
+            box-shadow: 0 0 20px #ff00ff;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 32pt;
+            color: #ff00ff;
+            text-transform: uppercase;
+            letter-spacing: 8px;
+            margin: 0;
+            padding: 0;
+        }
+        .sub-title {
+            color: #00ffcc;
+            font-size: 14pt;
+            letter-spacing: 2px;
+        }
+        .section-title {
+            font-size: 18pt;
+            color: #00ffcc;
+            text-transform: uppercase;
+            border-left: 10px solid #ff00ff;
+            padding-left: 15px;
+            margin: 30px 0 15px 0;
+            background: rgba(0, 255, 204, 0.1);
+        }
+        .content-block {
+            background: rgba(26, 26, 46, 0.8);
+            border: 1px solid #ff00ff;
+            padding: 20px;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        .instruction-list {
+            list-style: none;
+            padding: 0;
+        }
+        .instruction-list li {
+            margin-bottom: 10px;
+            padding-left: 25px;
+            position: relative;
+        }
+        .instruction-list li::before {
+            content: '>';
+            position: absolute;
+            left: 0;
+            color: #ff00ff;
+            font-weight: bold;
+        }
+        .highlight {
+            color: #ff00ff;
+            font-weight: bold;
+        }
+        .changelog-item {
+            font-size: 12pt;
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 12px;
+            margin: 8px 0;
+            border-right: 4px solid #00ffcc;
+        }
+        .btn {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 15px 30px;
+            background: #ff00ff;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            border: none;
+            box-shadow: 5px 5px 0px #00ffcc;
+        }
+        .fun-text {
+            text-align: center;
+            font-size: 24pt;
+            color: #ff00ff;
+            margin-top: 30px;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header-box">
+            <h1>GEOMETRY DASH</h1>
+            <div class="sub-title">ROBERT SCRATCH EDITION</div>
+        </div>
+
+        <div class="section-title">Spielanleitung</div>
+        <div class="content-block">
+            <ul class="instruction-list">
+                <li>Intro-Anleitung skippen mit <span class="highlight">Leertaste</span></li>
+                <li>Springen mit <span class="highlight">Leertaste</span></li>
+                <li>Münzen <span class="highlight">sammeln</span></li>
+                <li>Geistern ausweichen</li>
+                <li>Spitzen ausweichen</li>
+                <li>Ausweichen bringt <span class="highlight">Punkte</span></li>
+                <li>Auf blaue Balken springen (bringt Punkte)</li>
+                <li>Auf Treppen steigen mit <span class="highlight">W-Taste</span></li>
+            </ul>
+            <p>Nach einiger Zeit werden Level aufgestiegen. Je nach Level wird das Spiel schneller.</p>
+            <p>Wenn du Glück hast und lange genug spielst, erscheint eine Münze, die dich heilt!</p>
+            <div class="fun-text">VIEL SPASS!</div>
+        </div>
+
+        <div style="text-align:center;">
+            <a href="https://raw.githubusercontent.com/robyte25/7egd/main/Geometry Dash.sb3" class="btn">SPIEL HERUNTERLADEN</a>
+        </div>
+        <div class="section-title">Geometry Dash im Browser spielen:</div>
+        <div style="text-align:center;">
+            <a href="https://robyte25.github.io/7egd/Geometry Dash.html" class="btn">ZUR WEBSITE</a>
+        </div>
+
+        <div class="section-title">Jetzt neu: Geometry Dash für Android!</div>
+        <div style="text-align:center;">
+            <a href="https://raw.githubusercontent.com/robyte25/7egd/main/Geometry_Dash_PE.apk" class="btn">APK HERUNTERLADEN</a>
+        </div>
+        <div class="section-title">Jetzt neu: Geometry Dash für Android!</div>
+
+
+
+        <div class="section-title">Danke für das Herunterladen!</div>
+        
+        <div class="section-title" style="font-size: 15pt;">Neuerungen in V6:</div>
+        <div class="content-block" style="border-color: #00ffcc;">
+            <div class="changelog-item">-Neues Element: Treppe(ausweichen mit W)</div>
+            <div class="changelog-item">-Levelsystem</div>
+            <div class="changelog-item">-Heilungsmünze</div>
+            <div class="changelog-item">- Entfernen der Variable "Münzen"; Beim Sammeln von Münzen werden stattdessen 10 Punkte hinzugefügt</div>
+            <div class="changelog-item">- Neustart des Spiels mit Countdown Animation</div>
+            <div class="changelog-item">- Gründliches Tutorial(kurz + knackig)</div>
+        </div>
+    </div>
+</body>
+</html>
